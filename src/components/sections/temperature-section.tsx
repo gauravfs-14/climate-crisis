@@ -42,9 +42,9 @@ export function TemperatureSection({ isActive }: TemperatureSectionProps) {
               Global Temperature <span className="text-red-400">Rising</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-xl">
-              Earth's average temperature has increased by more than 1.1°C since
-              pre-industrial times, with the last decade being the warmest on
-              record.
+              Earth&apos;s average temperature has increased by more than 1.1°C
+              since pre-industrial times, with the last decade being the warmest
+              on record.
             </p>
             <div className="space-y-4 text-gray-300">
               <div className="flex gap-3">

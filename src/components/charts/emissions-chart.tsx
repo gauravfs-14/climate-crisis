@@ -75,7 +75,7 @@ export function EmissionsChart() {
             ticks: {
               color: "rgba(255, 255, 255, 0.7)",
               maxTicksLimit: 10,
-              callback: (value, index, values) => {
+              callback: (_, index) => {
                 const year = years[index];
                 return year % 20 === 0 ? year : "";
               },
